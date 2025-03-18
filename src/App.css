@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+label {
+  font: 300 1rem Roboto, helvetica, sans-serif;
+  color: #212121;
+  display: block;
+  padding: 2px;
+}
+
+.layout {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack navbar on top of the container */
+}
+
+.navbar {
+  height: 74px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: calc(100vh - 74px);
+}
+
+.pane {
+  position: relative;
+  overflow: hidden;
+}
+
+.left-pane {
+  background-color: #f0f0f0;
+}
+
+.right-pane {
+  background-color: #f0f0f0;
+  flex: 1;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem;
+  border-radius: 4px;
+  z-index: 100;
+  max-width: 300px;
+}
+
+.inspector-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+.pane-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  z-index: 100;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  background-color: #f0f0f0 !important;
+  border-bottom: 2px solid #ddd !important;
+}
+
+.event-diagram-component {
+  height: 100%;
+  background-color: #eee;
+}
+
+.entity-diagram-component {
+  height: 100%;
+}
+
+.resizer {
+  width: 2px;
+  cursor: col-resize;
+  background-color: #ddd;
+  flex: 0 0 auto;
+}
+
+.events-pane-wrapper, .entities-pane-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.pane-label,
+.controls {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.controls input,
+.controls textarea,
+.controls select {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+}

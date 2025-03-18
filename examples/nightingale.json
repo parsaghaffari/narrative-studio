@@ -1,0 +1,117 @@
+{
+  "eventsNodeDataArray": [
+    {
+      "key": 9999,
+      "text": "“SHE said that she would dance with me if I brought her red roses,” cried the young Student; “but in all my garden there is no red rose.” From her nest in the holm-oak tree the Nightingale heard him, and she looked out through the leaves, and wondered. “No red rose in all my garden!” he cried, and his beautiful eyes filled with tears.  “Ah, on what little things does happiness depend!  I have read all that the wise men have written, and all the secrets of philosophy are mine, yet for want of a red rose is my life made wretched.”\n",
+      "loc": "0 9.261423749153977",
+      "prevGuessesForward": [
+        "Overhearing his lament, the Nightingale, moved by the Student's despair, decided to help him. She knew of a way to create a red rose but it required a great personal sacrifice.",
+        "Suddenly, the Nightingale noticed a small, insignificant weed growing amidst the lush greenery of the garden. It was a Bloodrose, a rare and dangerous flower that could transform into a beautiful red rose, but only if watered with the tears of genuine sorrow."
+      ],
+      "prevGuessesBackward": [],
+      "description": ""
+    },
+    {
+      "text": "Overhearing his lament, the Nightingale, moved by the Student's despair, decided to help him. She knew of a way to create a red rose but it required a great personal sacrifice.",
+      "eventSeverity": [
+        3
+      ],
+      "parent": 9999,
+      "prevGuessesForward": [
+        "The Nightingale, with a heavy heart, flew to a rose-bush at the far end of the garden. \"If you want a red rose,\" she told the bush, \"you will have to pierce my heart with your thorn and stain your petals with my blood.\" Shocked but understanding the gravity of the situation, the rose-bush agreed."
+      ],
+      "prevGuessesBackward": [],
+      "loc": "303.4642537483079 19.49238281250002",
+      "key": 1000
+    },
+    {
+      "text": "Suddenly, the Nightingale noticed a small, insignificant weed growing amidst the lush greenery of the garden. It was a Bloodrose, a rare and dangerous flower that could transform into a beautiful red rose, but only if watered with the tears of genuine sorrow.",
+      "eventSeverity": [
+        3
+      ],
+      "parent": 9999,
+      "prevGuessesForward": [],
+      "prevGuessesBackward": [],
+      "loc": "305.3773396858079 115.98476156080793",
+      "key": 1001
+    },
+    {
+      "text": "The Nightingale, with a heavy heart, flew to a rose-bush at the far end of the garden. \"If you want a red rose,\" she told the bush, \"you will have to pierce my heart with your thorn and stain your petals with my blood.\" Shocked but understanding the gravity of the situation, the rose-bush agreed.",
+      "eventSeverity": [
+        3
+      ],
+      "parent": 1000,
+      "prevGuessesForward": [],
+      "prevGuessesBackward": [],
+      "loc": "599.2292887466156 0",
+      "key": 1002
+    }
+  ],
+  "eventsLinkDataArray": [
+    {
+      "from": 9999,
+      "to": 1000,
+      "text": "leads to",
+      "probability": 0.6,
+      "key": -1000
+    },
+    {
+      "from": 9999,
+      "to": 1001,
+      "text": "leads to",
+      "probability": 0.6,
+      "key": -1001
+    },
+    {
+      "from": 1000,
+      "to": 1002,
+      "text": "leads to",
+      "probability": 0.6,
+      "key": -1002
+    }
+  ],
+  "eventsModelData": {
+    "canRelink": false,
+    "eventPrompt": "",
+    "eventLikelihood": [
+      3
+    ],
+    "eventSeverity": [
+      3
+    ],
+    "eventTemperature": [
+      0.8
+    ],
+    "entitiesDescription": "",
+    "useGpt4": true,
+    "includeEntityGraph": true
+  },
+  "eventsSelectedData": {
+    "text": "Overhearing his lament, the Nightingale, moved by the Student's despair, decided to help him. She knew of a way to create a red rose but it required a great personal sacrifice.",
+    "eventSeverity": [
+      3
+    ],
+    "parent": 9999,
+    "prevGuessesForward": [
+      "The Nightingale, with a heavy heart, flew to a rose-bush at the far end of the garden. \"If you want a red rose,\" she told the bush, \"you will have to pierce my heart with your thorn and stain your petals with my blood.\" Shocked but understanding the gravity of the situation, the rose-bush agreed."
+    ],
+    "prevGuessesBackward": [],
+    "loc": "303.4642537483079 19.49238281250002",
+    "key": 1000
+  },
+  "eventsSkipsDiagramUpdate": true,
+  "entitiesNodeDataArray": [],
+  "entitiesLinkDataArray": [],
+  "entitiesModelData": {
+    "canRelink": false,
+    "forceLayout": false,
+    "entitiesPrompt": "",
+    "entityTypes": [],
+    "relationshipTypes": [],
+    "includeExistingGraph": false
+  },
+  "entitiesSelectedData": null,
+  "entitiesSkipsDiagramUpdate": true,
+  "activeKey": "0",
+  "isLoading": false
+}

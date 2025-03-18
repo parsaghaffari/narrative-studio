@@ -1,0 +1,27 @@
+.inspector {
+  font: 500 1rem Roboto, helvetica, sans-serif;
+  color: #212121;
+  cursor: default;
+  margin-top: 2px;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.inspector td, th {
+  padding: 2px;
+}
+
+.inspector input {
+  font: 300 1rem Roboto, helvetica, sans-serif;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #212121;
+  padding: 2px;
+}
+
+.inspector input:disabled {
+  background-color: #EEEEEE;
+  color: #616161;
+  border-bottom: 1px solid #BDBDBD;
+}

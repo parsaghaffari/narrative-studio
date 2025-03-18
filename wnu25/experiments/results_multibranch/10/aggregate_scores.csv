@@ -1,0 +1,3 @@
+strategy,overall_quality,identifying_major_flaws,character_behavior,common_sense_adherence,consistency,relatedness,causal_temporal_relationship,avg_score
+baseline-multibranch (N=3),5.35,4.15,5.9,5.0,4.7,4.7,4.75,4.935714285714285
+baseline-multibranch (N=6),5.55,4.45,6.2,5.55,5.05,4.85,5.2,5.264285714285714

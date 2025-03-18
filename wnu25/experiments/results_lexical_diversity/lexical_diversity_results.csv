@@ -1,0 +1,5 @@
+n,MCTS Avg Diversity,MCTS Std Diversity,Baseline Avg Diversity,Baseline Std Diversity,MCTS Combined Diversity,Baseline Combined Diversity,Difference (Avg),Difference (Combined)
+1,0.5376,0.0306,0.5480,0.0387,0.2782,0.2940,-0.0104,-0.0157
+2,0.9174,0.0187,0.9221,0.0125,0.6550,0.6617,-0.0046,-0.0067
+3,0.9858,0.0047,0.9864,0.0042,0.7879,0.7869,-0.0006,0.0010
+4,0.9987,0.0017,0.9989,0.0013,0.8208,0.8228,-0.0001,-0.0020
